@@ -14,9 +14,6 @@ import java.net.URL;
  * Date: 1/9/13
  * Time: 12:56 PM
  * Main Applet here...
- * Note: I have an Object which is an ArrayList of Brick Objects, thinking it would be easier to say "Block b = new Block()"
- * as opposed to having to initialize the ArrayList in the main applet, unfortunately, foreach loops don't work that way
- * the loops are still for loops
  */
 public class BrickBreaker extends JApplet implements Runnable, KeyListener {
     Thread t;
